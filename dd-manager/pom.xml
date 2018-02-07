@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dd-parent</artifactId>
+        <groupId>com.wzh</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../dd-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>dd-manager</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>dd-manager-pojo</module>
+        <module>dd-manager-dao</module>
+        <module>dd-manager-interface</module>
+        <module>dd-manager-service</module>
+        <module>dd-manager-web</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.wzh</groupId>
+            <artifactId>dd-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
