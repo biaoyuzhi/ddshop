@@ -19,6 +19,7 @@
         <module>../dd-sso-web</module>
         <module>../dubbo2-provider-web</module>
         <module>../dubbo2-consumer-web</module>
+        <module>../dd-item-web</module>
     </modules>
     <!--分布式工程需要使用依赖的版本号，统一管理-->
     <properties>
@@ -43,7 +44,7 @@
         <commons-lang3.version>3.3.2</commons-lang3.version>
         <commons-io.version>2.4</commons-io.version>
         <commons-codec.version>1.9</commons-codec.version>
-        <baidu-ueditor.version>1.1.2</baidu-ueditor.version>
+        <baidu-ueditor.version>20180110</baidu-ueditor.version>
         <commons-net.version>3.3</commons-net.version>
         <jsqlparser.version>0.9.1</jsqlparser.version>
         <commons-fileupload.version>1.3.1</commons-fileupload.version>
@@ -104,7 +105,7 @@
             </dependency>
             <!--处理百度富文本编辑器的工具包、加密工具包-->
             <dependency>
-                <groupId>com.baidu</groupId>
+                <groupId>cn.meddb</groupId>
                 <artifactId>ueditor</artifactId>
                 <version>${baidu-ueditor.version}</version>
             </dependency>

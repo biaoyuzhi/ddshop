@@ -37,9 +37,10 @@
 
         <!--处理百度富文本编辑器的工具包、加密工具包-->
         <dependency>
-            <groupId>com.baidu</groupId>
+            <groupId>cn.meddb</groupId>
             <artifactId>ueditor</artifactId>
         </dependency>
+
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>

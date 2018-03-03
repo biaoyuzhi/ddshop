@@ -29,7 +29,7 @@
     </dependencies>
     <build>
         <finalName>mbgen</finalName>
-        <plugins>
+        <!--<plugins>
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
@@ -55,7 +55,7 @@
                     </dependency>
                 </dependencies>
             </plugin>
-        </plugins>
+        </plugins>-->
         <resources>
         <resource>
             <directory>src/main/java</directory>

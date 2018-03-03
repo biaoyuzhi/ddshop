@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ddshop.dao.TbIDMapper" >
+  <select id="findByItemId" resultType="com.ddshop.pojo.po.TbItemDesc">
+    select tbid.item_desc from tb_item_desc as tbid where tbid.item_id=#{itemId}
+  </select>
+</mapper>

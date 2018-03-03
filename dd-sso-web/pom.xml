@@ -61,7 +61,7 @@
             <artifactId>commons-io</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.baidu</groupId>
+            <groupId>cn.meddb</groupId>
             <artifactId>ueditor</artifactId>
         </dependency>
         <dependency>
